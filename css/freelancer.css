@@ -444,6 +444,9 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content p {
   text-align: left;
 }
+.portfolio-modal .modal-content li {
+  text-align: left;
+}
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
@@ -516,4 +519,9 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+.disabled {
+   pointer-events: none;
+   cursor: default;
+   color: inherit;
 }
